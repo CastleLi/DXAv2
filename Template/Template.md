@@ -6,8 +6,9 @@
 
 
 # Creating your own template
-The template table is composed of table headers in each type of DXA scans (Fig 1).
+The template table is composed of table headers in each type of DXA scans.
 
+**An example of template table**
 ![Fig 1](https://github.com/CastleLi/DXAv2/blob/main/Template/Figs/Fig1.jpg) 
 
 
@@ -24,7 +25,7 @@ The first row indicates type of DXA reports, **ScanType**, and the remaining row
 | Proximal Femur	| Left/Right Total Hip Densitometry |	PatientID\_visit#\_LH or PatientID\_visit#\_RH	| Single Total Hip Densitometry Enhanced Analysis	| PatientID\_visit#\_LHExt or PatientID\_visit#\_RHExt |
 | Radius	| L or R Radial Densitometry	| PatientID\_visit#\_Rad	| only the left OR the right radial scans can be processed at a time in the application.| |
 
-Once you have determined the **ScanType**, open the DXA report and type/copy the table headers into the template file (Fig 2).
+Once you have determined the **ScanType**, open the DXA report and type/copy the table headers into the template file (see below).
 
 ![Fig 2](https://github.com/CastleLi/DXAv2/blob/main/Template/Figs/Fig2.jpg) 
 
