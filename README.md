@@ -31,7 +31,6 @@ Different software versions display and organize DXA data differently. At your D
 Please scroll to find the software version that matches or is closest to what you are using and ensure your reports are configured to match these examples. Each DXA scan report for use in the DXA<sup>2</sup> should be saved to an external hard drive as either an *.xps* or *.pdf* file. Then, you can either transfer the scans from the external hard drive to a location on the computer where the DXA<sup>2</sup> application is located (or will be downloaded) or use the DXA<sup>2</sup> on the computer and save all outputs to the external hard drive.
 
 * GE
-  * [GE Prodigy – enCORE v.12](https://github.com/DXA-Data-Xtraction-Assistant/DXA-Data-Xtraction-Assistant/blob/master/DXA%20scan%20report%20examples/GE%20enCORE%20v%2012%20outputs.pdf)
   * [GE Prodigy – enCORE v.16](https://github.com/DXA-Data-Xtraction-Assistant/DXA-Data-Xtraction-Assistant/blob/master/DXA%20scan%20report%20examples/GE%20enCORE%20v%2016%20outputs.pdf) 
   * [GE iDXA – enCORE v.17 & 18](https://github.com/DXA-Data-Xtraction-Assistant/DXA-Data-Xtraction-Assistant/blob/master/DXA%20scan%20report%20examples/GE%20iDXA%20enCORE%20v%2017%20%26%2018%20outputs.pdf)
 * [Hologic Horizon – Apex v 5.5](https://github.com/DXA-Data-Xtraction-Assistant/DXA-Data-Xtraction-Assistant/blob/master/DXA%20scan%20report%20examples/Hologic%20Horizon%20Apex%20v%205.5%20outputs.pdf)
@@ -79,9 +78,10 @@ Once you have successfully downloaded the DXA<sup>2</sup>, it is time to use it!
 
 Although the DXA<sup>2</sup> is free, the developers request that users cite the DXA<sup>2</sup> in their publications using the following citation:( **Include citation here** ). After selecting "I agree", you will be prompted to select the manufacturer and the software version for your DXA machine. As noted in the DXA<sup>2</sup>, 
 
-if you do not see the specific software version for your DXA machine, please try all the option "Customized" and upload your own template file by clicking the button "Template File". 
+You will first need to select the input, or file path to your properly saved DXA reports, and the output folder, or file path for where the extracted data should be saved. Once you have selected the input folder, output folder, you need to select the software version of your DXA machine and click "transform". After this has been completed, the final screen will thank you for using the DXA<sup>2</sup> and will remind users to cite our work. If you have any issues with using the DXA<sup>2</sup>, please review the [Troubleshooting/FAQ’s](#TroubleshootingFAQs) below or the [third tutorial video](NEWLINK).
 
-Once, you have selected your software version, you will select the input, or file path to your properly saved DXA reports, and the output folder, or file path for where the extracted data should be saved. Once you have selected the input folder, output folder, and clicked "transform", you need to select what types of DXA reports you have available and would like to extract data from. After selecting these using the checkboxes, select "merge". After this has been completed, the final screen will thank you for using the DXA<sup>2</sup> and will remind users to cite our work. If you have any issues with using the DXA<sup>2</sup>, please review the [Troubleshooting/FAQ’s](#TroubleshootingFAQs) below or the [third tutorial video](NEWLINK).
+if you do not see the specific software version for your DXA machine, please try the option "Customized" and upload your own template file by clicking the button "Template File". See [here](TEMPLATE) for more details.
+
 
 Tips for success: 
 1. Ensure that your input folder **ONLY** includes the properly configured and formatted DXA reports (*.pdf* or *.xps* files). If any of these files are improperly named for use in the DXA<sup>2</sup> or if there are other files in the input folder, the DXA<sup>2</sup> will not work. 
@@ -99,7 +99,7 @@ No. The patient or participant ID's can be any alphanumeric sequence but cannot 
 
 ### I did a scan not listed in Table 1 and don’t know how to save it. 
 
-The DXA machine has a variety of capabilities (e.g. aortic calcification) not listed in Table 1 in the instructions. If this is the case, please email the administrator at DXA2@health.missouri.edu and they will work with you directly. 
+The DXA machine has a variety of capabilities (e.g. aortic calcification) not listed in Table 1 in the instructions. If this is the case, please try the option "Customized" and upload your own template file by clicking the button "Template File". If you need further assistance, please email the administrator at DXA2@health.missouri.edu and they will work with you directly. 
 
 ### Why can’t I just do Steps 1 to 3 on my DXA computer? 
 
