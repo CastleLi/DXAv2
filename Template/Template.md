@@ -9,6 +9,7 @@
 The template table is composed of table headers in each type of DXA scans.
 
 **An example of template table**
+
 ![Fig 1](https://github.com/CastleLi/DXAv2/blob/main/Template/Figs/Fig1.jpg) 
 
 
