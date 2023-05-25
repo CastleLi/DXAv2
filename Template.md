@@ -1,3 +1,0 @@
-
-** Please read this carefully **
-
