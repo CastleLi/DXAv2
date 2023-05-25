@@ -1,18 +1,29 @@
 
-**Please read this carefully**
+
+# Content
+* [Important notes](#Important-notes)
+* [Creating your own template](#Creating-your-own-template)
+  * [Overview of template table](#Overview-of-template-table)
+  * [Determining type of DXA reports](#Determining-type-of-DXA-reports)
+  * [Loading in table headers](#Loading-in-table-headers)
+
+
+# Important notes
+**Please read this carefully before using the "Customized" inputs**
 1. The Template file should be saved in “.csv” format.
 2. Empty cells in the tables of DXA reports may lead to unexpected mistakes in the outputs **unless those cells are at the end of each row**.
 3. Currently the DXA<sup>2</sup>v2 is not applicable for the DXA machine GE Prodigy – enCORE v.12. Please use the earlier version [DXA<sup>2</sup>](https://github.com/DXA-Data-Xtraction-Assistant/DXA-Data-Xtraction-Assistant/) to process the DXA reports if you are using DXA machine GE Prodigy – enCORE v.12.
 
 
 # Creating your own template
+## Overview of template table
 The template table is composed of table headers in each type of DXA scans.
 
-**An example of template table**
+*An example of template table*
 
 ![Fig 1](https://github.com/CastleLi/DXAv2/blob/main/Template/Figs/Fig1.jpg) 
 
-
+## Determining type of DXA reports
 The first row indicates type of DXA reports, **ScanType**, and the remaining rows are table headers in the corresponding DXA report. We recommend naming the type of DXA scans as follows:
 
 *Table 1: Guide for how to rename DXA reports for use with DXA<sup>2</sup>.*
@@ -26,9 +37,11 @@ The first row indicates type of DXA reports, **ScanType**, and the remaining row
 | Proximal Femur	| Left/Right Total Hip Densitometry |	PatientID\_visit#\_LH or PatientID\_visit#\_RH	| Single Total Hip Densitometry Enhanced Analysis	| PatientID\_visit#\_LHExt or PatientID\_visit#\_RHExt |
 | Radius	| L or R Radial Densitometry	| PatientID\_visit#\_Rad	| only the left OR the right radial scans can be processed at a time in the application.| |
 
-Once you have determined the **ScanType**, open the DXA report and type/copy the table headers into the template file (see below).
+## Loading in table headers
+Once you have determined the **ScanType**, open the DXA report and type/copy the table headers into the template file (see below). 
 
 ![Fig 2](https://github.com/CastleLi/DXAv2/blob/main/Template/Figs/Fig2.jpg) 
 
+Repeat this step until all types of DXA reports are covered.
 
-
+# Template with
