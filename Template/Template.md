@@ -1,4 +1,5 @@
-** Please read this carefully **
+
+**Please read this carefully**
 1. The Template file should be saved in “.csv” format.
 2. Empty cells in the tables of DXA reports may lead to unexpected mistakes in the outputs **unless those cells are at the end of each row**.
 3. Currently the DXA<sup>2</sup>v2 is not applicable for the DXA machine GE Prodigy – enCORE v.12. Please use the earlier version [DXA<sup>2</sup>](https://github.com/DXA-Data-Xtraction-Assistant/DXA-Data-Xtraction-Assistant/) to process the DXA reports if you are using DXA machine GE Prodigy – enCORE v.12.
