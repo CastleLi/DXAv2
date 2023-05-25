@@ -7,7 +7,8 @@
 
 # Creating your own template
 The template table is composed of table headers in each type of DXA scans (Fig 1).
-[Fig 1](https://github.com/CastleLi/DXAv2/blob/main/Template/Figs/Fig1.jpg) 
+
+![Fig 1](https://github.com/CastleLi/DXAv2/blob/main/Template/Figs/Fig1.jpg) 
 
 
 The first row indicates type of DXA reports, **ScanType**, and the remaining rows are table headers in the corresponding DXA report. We recommend naming the type of DXA scans as follows:
@@ -24,4 +25,8 @@ The first row indicates type of DXA reports, **ScanType**, and the remaining row
 | Radius	| L or R Radial Densitometry	| PatientID\_visit#\_Rad	| only the left OR the right radial scans can be processed at a time in the application.| |
 
 Once you have determined the **ScanType**, open the DXA report and type/copy the table headers into the template file (Fig 2).
-[Fig 2](https://github.com/CastleLi/DXAv2/blob/main/Template/Figs/Fig2.jpg) 
+
+![Fig 2](https://github.com/CastleLi/DXAv2/blob/main/Template/Figs/Fig2.jpg) 
+
+
+
