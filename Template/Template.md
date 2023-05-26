@@ -42,7 +42,7 @@ Once you have determined the **ScanType**, open the DXA report and type/copy the
 
 *Fig 2: Creating the template table*
 
-![Fig 2](https://github.com/CastleLi/DXAv2/blob/main/Template/Figs/Fig2.jpg) 
+![Fig 2](https://github.com/CastleLi/DXAv2/blob/main/Template/Figs/Fig2.gif) 
 
 Repeat this step until all types of your DXA reports are covered.
 
@@ -51,6 +51,6 @@ Some DXA reports may have multiple tables in one file. In this case, the **ScanT
 
 *Fig 3: Creating the template table for DXA report with multiple table*
 
-![Fig 3](https://github.com/CastleLi/DXAv2/blob/main/Template/Figs/Fig3.jpg) 
+![Fig 3](https://github.com/CastleLi/DXAv2/blob/main/Template/Figs/Fig3.gif) 
 
 
