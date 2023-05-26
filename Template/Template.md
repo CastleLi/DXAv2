@@ -6,6 +6,7 @@
   * [Overview of template table](#Overview-of-template-table)
   * [Determining type of DXA reports](#Determining-type-of-DXA-reports)
   * [Loading in table headers](#Loading-in-table-headers)
+* [DXA report with multiple tables](#DXA-report-with-multiple-tables)
 
 
 # Important notes
