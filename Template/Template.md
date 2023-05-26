@@ -19,7 +19,7 @@
 ## Overview of template table
 The template table is composed of table headers in each type of DXA scans.
 
-*An example of template table*
+*Fig 1: An example of template table*
 
 ![Fig 1](https://github.com/CastleLi/DXAv2/blob/main/Template/Figs/Fig1.jpg) 
 
@@ -40,8 +40,17 @@ The first row indicates type of DXA reports, **ScanType**, and the remaining row
 ## Loading in table headers
 Once you have determined the **ScanType**, open the DXA report and type/copy the table headers into the template file (see below). 
 
+*Fig 2: Creating the template table*
+
 ![Fig 2](https://github.com/CastleLi/DXAv2/blob/main/Template/Figs/Fig2.jpg) 
 
-Repeat this step until all types of DXA reports are covered.
+Repeat this step until all types of your DXA reports are covered.
 
-# Template with
+# DXA report with multiple tables
+Some DXA reports may have multiple tables in one file. In this case, the **ScanType** in the template should be followed by the index of tables in the DXA reports, separated by underscore “_”. An example is the Total Body Composition report from Hologic Horizon Apex V5.5. The **ScanType** of this report is “BC” and there are three separate tables to be extracted in this report (upper side of Figure below). Accordingly, the name of tables would be “BC_1”, “BC_2” and “BC_3” (lower side of Figure below).
+
+*Fig 3: Creating the template table for DXA report with multiple table*
+
+![Fig 3](https://github.com/CastleLi/DXAv2/blob/main/Template/Figs/Fig3.jpg) 
+
+
